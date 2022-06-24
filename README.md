@@ -3,19 +3,19 @@
 ![image](https://user-images.githubusercontent.com/20026922/175474616-13b4bb39-6299-4892-9a4e-3694636b6dd1.png)
 
 ## 机器配置
---------[ 概览 ]----------------------------------------------------------------------------------
-
-  电脑型号               联想 启天M425-N000 台式电脑
-  操作系统               Windows 10 Enterprise 64位（Version 1809 / DirectX 12）
-
-  处理器                 英特尔 Core i7-8700 @ 3.20GHz 六核
-  主板                   联想 313A（B360 芯片组）
-  显卡                   英特尔 UHD Graphics 630 ( 128 MB / 联想 )
-  内存                   16 GB ( 三星 DDR4 2666MHz )
-  主硬盘                  HFM128GDHTNG-8310B ( 128 GB / 固态硬盘 )
-  显示器                 宏碁 ACR0216 S242HL ( 24 英寸  )
-  声卡                   瑞昱 ALC662 @ 英特尔 High Definition Audio 控制器
-  网卡                   瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller / 联想
+> --------[ 概览 ]----------------------------------------------------------------------------------
+>
+>   电脑型号               联想 启天M425-N000 台式电脑
+>   操作系统               Windows 10 Enterprise 64位（Version 1809 / DirectX 12）
+>
+>   处理器                 英特尔 Core i7-8700 @ 3.20GHz 六核
+>   主板                   联想 313A（B360 芯片组）
+>   显卡                   英特尔 UHD Graphics 630 ( 128 MB / 联想 )
+>   内存                   16 GB ( 三星 DDR4 2666MHz )
+>   主硬盘                  HFM128GDHTNG-8310B ( 128 GB / 固态硬盘 )
+>   显示器                 宏碁 ACR0216 S242HL ( 24 英寸  )
+>   声卡                   瑞昱 ALC662 @ 英特尔 High Definition Audio 控制器
+>   网卡                   瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller / 联想
 
 ### 制作流程 （黑苹果思路）
 #### EFI结构图 （最终结果 opencore版本：0.8.1）
