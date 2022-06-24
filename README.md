@@ -41,7 +41,8 @@
 
    解压之后 取64位EFI文件夹
 
-   https://dortania.github.io/OpenCore-Install-Guide/assets/img/ia32-x64.aa5dccd9.png![image](https://user-images.githubusercontent.com/20026922/175479582-e94393b1-22b4-41af-a7ae-047692c9078b.png)
+   ![image](https://user-images.githubusercontent.com/20026922/175482373-c5d59425-a17f-47e9-8cc0-86dbcd3edf2d.png)
+
    删除多余文件 最终结果参考[EFI结构图][EFI结构图 （最终结果 opencore版本：0.8.1)]
 
     https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html
