@@ -32,6 +32,7 @@
 #### 定制流程 
 
 1. 制作ACPI(SSDT)
+   可参考 [司波图教程](https://www.youtube.com/watch?v=Lu6Kmz5aDhY) 11:45处开始
 
 2. 准备必要Kexts
    本机参考kexts [Efi-opencore-m425-n000-with-i7-8700-amd-rx6600xt](https://github.com/afly2020/Efi-opencore-m425-n000-with-i7-8700-amd-rx6600xt)  去掉了A卡的驱动 感谢@afly2020
@@ -70,12 +71,14 @@
    参考文档：https://www.hurryyu.com/2022/05/28/黑苹果折腾记录/#2-2、DeviceProperties配置
    
    我重启了20多次才试成功 哈哈哈😂
+   ![image](https://user-images.githubusercontent.com/20026922/175490306-d8503ade-dc0f-43a5-9752-33e324e5edc5.png)
    
    3.4 HDMI VGA同时输出
+   ![image](https://user-images.githubusercontent.com/20026922/175490344-dcb59fbe-77c9-4279-be8a-27b4c74a2fbb.png)
    
    3.5 声卡
    
-   根据声卡型号找layoutid 
+   根据声卡型号找layoutid ALC662填的是17
    
    https://blog.daliansky.net/AppleALC-Supported-codecs.html
    
