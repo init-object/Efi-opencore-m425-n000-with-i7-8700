@@ -34,13 +34,15 @@
 1. 制作ACPI(SSDT)
 
 2. 准备必要Kexts
-   本机参考kexts [Efi-opencore-m425-n000-with-i7-8700-amd-rx6600xt](https://github.com/afly2020/Efi-opencore-m425-n000-with-i7-8700-amd-rx6600xt) 感谢@afly2020（去掉了A卡的驱动）
+   本机参考kexts [Efi-opencore-m425-n000-with-i7-8700-amd-rx6600xt](https://github.com/afly2020/Efi-opencore-m425-n000-with-i7-8700-amd-rx6600xt)  去掉了A卡的驱动 感谢@afly2020
 
 3. 配置config.plist 
    3.1 下载opencore-0.8.1 https://github.com/acidanthera/OpenCorePkg/releases/download/0.8.1/OpenCore-0.8.1-RELEASE.zip
+
    解压之后 取64位EFI文件夹
+
    https://dortania.github.io/OpenCore-Install-Guide/assets/img/ia32-x64.aa5dccd9.png![image](https://user-images.githubusercontent.com/20026922/175479582-e94393b1-22b4-41af-a7ae-047692c9078b.png)
-   删除多余文件 最终结果参考[EFI结构图][EFI结构图 （最终结果 opencore版本：0.8.1）]
+   删除多余文件 最终结果参考[EFI结构图][EFI结构图 （最终结果 opencore版本：0.8.1)]
 
     https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html
 
