@@ -26,7 +26,7 @@
   网卡                   瑞昱 RTL8168/8111/8112 Gigabit Ethernet Controller / 联想
 
 ### 制作流程 （黑苹果思路）
-#### EFI结构图 （最终结果 opencore版本：0.8.1）
+#### EFI结构图
 ![image](https://user-images.githubusercontent.com/20026922/175478939-29957649-dfda-47ea-8eba-d8e3240221d7.png)
 
 #### 定制流程 
@@ -37,18 +37,48 @@
    本机参考kexts [Efi-opencore-m425-n000-with-i7-8700-amd-rx6600xt](https://github.com/afly2020/Efi-opencore-m425-n000-with-i7-8700-amd-rx6600xt)  去掉了A卡的驱动 感谢@afly2020
 
 3. 配置config.plist 
-   3.1 下载opencore-0.8.1 https://github.com/acidanthera/OpenCorePkg/releases/download/0.8.1/OpenCore-0.8.1-RELEASE.zip
+   3.1 下载[opencore-0.8.1](https://github.com/acidanthera/OpenCorePkg/releases/download/0.8.1/OpenCore-0.8.1-RELEASE.zip)
 
    解压之后 取64位EFI文件夹
 
    ![image](https://user-images.githubusercontent.com/20026922/175482373-c5d59425-a17f-47e9-8cc0-86dbcd3edf2d.png)
 
-   删除多余文件 最终结果参考[EFI结构图][EFI结构图 （最终结果 opencore版本：0.8.1)]
+   删除多余文件 
 
+   将第一步生成的SSDT文件拷贝进ACPI文件夹
+
+   将第二部获取到的驱动文件kext放入kexts文件夹
+   
+   将opencore-0.8.1的doc/sample.plist拷贝进EFI/OC文件夹下 并改名为config.plist
+   
+   最终结果参考[EFI结构图](#EFI结构图)
+   
+   3.2 定制config.plist
+   
     https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html
-
-4. 由于此机主板只有HDMI和VGA口（VGA可以正常输出） 只接HDMI口后显示器黑屏
-
+   
+   根据上面文档设置config.plist的每项配置
+   
+   3.3 修复HDMI输出
+   
+   由于此机主板只有HDMI和VGA口（VGA可以正常输出） 只接HDMI口后显示器黑屏
+   
+   文档参考 https://dortania.github.io/OpenCore-Post-Install/gpu-patching/intel-patching/connector.html
+   
+   修复连接器类型：
+   
+   参考文档：https://www.hurryyu.com/2022/05/28/黑苹果折腾记录/#2-2、DeviceProperties配置
+   
+   我重启了20多次才试成功 哈哈哈😂
+   
+   3.4 HDMI VGA同时输出
+   
+   3.5 声卡
+   
+   根据声卡型号找layoutid 
+   
+   https://blog.daliansky.net/AppleALC-Supported-codecs.html
+   
    
 #### 参考文档
 https://dortania.github.io/OpenCore-Install-Guide/prerequisites.html
