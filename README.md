@@ -1,5 +1,6 @@
 # Efi-opencore-m425-n000-with-i7-8700
 ![image](https://user-images.githubusercontent.com/20026922/175492947-473037e3-0314-4d86-86d1-a44be09c3226.png)
+<img width="905" alt="image" src="https://user-images.githubusercontent.com/20026922/190550185-bf2e57f2-26d0-43f4-925a-fe51780f91ab.png">
 ![image](https://user-images.githubusercontent.com/20026922/174951046-16a51076-3482-4919-8563-290fdb4f7d5c.png)
 ![image](https://user-images.githubusercontent.com/20026922/175474616-13b4bb39-6299-4892-9a4e-3694636b6dd1.png)
 ![image](https://user-images.githubusercontent.com/20026922/175867243-3a360dc2-62b4-464a-9d34-076732b25884.png)
@@ -78,6 +79,9 @@
    
    3.4 HDMI VGA同时输出
    ![image](https://user-images.githubusercontent.com/20026922/175490344-dcb59fbe-77c9-4279-be8a-27b4c74a2fbb.png)
+   
+   3.5 支持4K显示器输出
+   需要在bios设置 Video --> Igpu --> Pre-allocated memory 为32M
    
    3.5 声卡
    
